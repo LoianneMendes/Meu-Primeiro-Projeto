@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações e Feedbacks</title>
+    <link rel="icon" href="./img/logoNAFESO.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/feedback.css">
+</head>
+</head>
+<body>
+    <header>
+        <div class="img_slogan">
+            <img src="./img/logoNAFESO.png" alt="logo Naf">
+        </div>
+        <nav>
+            <ul class="menu_links_header ">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+                <li><a href="./cadastro.html">Usuário</a></li>
+                <li><a href="./feedback.html">Deixe sua Avaliação</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+<div class="container">
+    <h2>Avaliações e Feedbacks</h2>
+
+    <form class="feedback-form" id="feedbackForm">
+        <input type="text" id="name" placeholder="Seu nome" required>
+        <textarea id="feedback" placeholder="Escreva seu feedback aqui..." required></textarea>
+        <button type="submit" class="btn-submit">Enviar Feedback</button>
+        <p class="error" id="errorMsg"></p>
+    </form>
+
+    <div class="reviews" id="reviews">
+        <div class="review">
+            <h3>Julia Santos</h3>
+            <p>"Achei o site de fácil acesso, acredito que qualquer pessoa consiga utiliza-lo."</p>
+        </div>
+        <div class="review">
+            <h3>Camila Reis</h3>
+            <p>"Gostei do sistema, consegui realizar meu agendamento tranquilamente. Recomendo!!!! "</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="contact-info">
+            <h3>Contato</h3>
+            <p>Email: suporte.naf@outlook.com</p>
+            <p>Telefone: (21) 2641-7000</p>
+            <p>Endereço: Avenida Alberto Torres, 111 - Alto</p>
+        </div>
+        <div class="links">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./feedback.html">Feedback</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Inscreva-se na nossa Newsletter</h3>
+            <form class="form_footer" action="#">
+                <input class="email_footer" type="email" placeholder="Seu e-mail">
+                <button type="submit">Inscrever</button>
+                </form>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/feedback.js"></script>
+</body>
+</html>

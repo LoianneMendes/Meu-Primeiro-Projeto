@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos</title>
+    <link rel="icon" href="./img/logoNAFESO.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/agendamento.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="img_slogan">
+            <img src="./img/logoNAFESO.png" alt="logo Naf">
+        </div>
+        <nav>
+            <ul class="menu_links_header ">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+                <li><a href="./cadastro.html">Usuário</a></li>
+                <li><a href="./feedback.html">Deixe sua Avaliação</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Agendamento NAF</h1>
+        <div class="seletor-agendamentos" id="schedule">
+            <h2 class="h2-selecione">Selecione o Dia</h2>
+            <select id="day-selector">
+                <option value="1">Segunda-feira</option>
+                <option value="2">Terça-feira</option>
+                <option value="3">Quarta-feira</option>
+                <option value="4">Quinta-feira</option>
+                <option value="5">Sexta-feira</option>
+            </select>
+            
+            <h2>Horários Disponíveis</h2>
+            <ul id="available-slots" class="grid-list"></ul>
+        </div>
+        <div id="appointments">
+            <h2>Seus Agendamentos</h2>
+            <ul id="booked-slots" class="grid-list"></ul>
+        </div>
+        <div id="modal" class="hidden">
+            <div class="modal-content">
+                <h3>Por que está solicitando este agendamento?</h3>
+                <textarea id="reason" placeholder="Digite o motivo aqui..."></textarea>
+                <button id="save-reason">Salvar</button>
+                <button id="close-modal">Cancelar</button>
+            </div>
+        </div>
+    </main>
+<footer>
+
+    <div class="footer-container">
+        <div class="contact-info">
+            <h3>Contato</h3>
+            <p>Email: suporte.naf@outlook.com</p>
+            <p>Telefone: (21) 2641-7000</p>
+            <p>Endereço: Avenida Alberto Torres, 111 - Alto</p>
+        </div>
+        <div class="links">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./feedback.html">Feedback</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Inscreva-se na nossa Newsletter</h3>
+            <form class="form_footer" action="#">
+                <input class="email_footer" type="email" placeholder="Seu e-mail">
+                <button type="submit">Inscrever</button>
+            </form>
+        </div>
+    </div>
+    <p>© 2024 MVP AgendaFácil NAF. Todos os direitos reservados.</p>
+</footer>
+<script src="./js/agendamento.js"></script>
+</body>
+</html>
