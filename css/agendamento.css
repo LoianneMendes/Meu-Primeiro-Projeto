@@ -54,13 +54,13 @@ h2{
 button {
     margin-top: 10px;
     padding: 12px;
-    background-color: #002d01;
+    background-color: #14cb17;
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
 }
 
@@ -76,12 +76,12 @@ button.cancel {
 #booked-slots.grid-list span {
     display: -webkit-box; 
     line-clamp: 5; 
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     overflow: hidden;
     text-overflow: ellipsis; 
     word-wrap: break-word; 
     white-space: normal;
-    max-height: 150px;
+    max-height: 100px;
 }
 .seletor-agendamentos {
     margin: 20px auto;
@@ -91,7 +91,7 @@ button.cancel {
 }
 .h2-selecione {
     font-size: 35px;
-    color: #002d01;
+    color: #14cb17;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -99,7 +99,7 @@ button.cancel {
     width: 20%;
     padding: 12px;
     font-size: 16px;
-    border: 1px solid #002d01;
+    border: 1px solid #14cb17;
     border-radius: 5px;
     background-color: #fff;
     color: #000000;
@@ -109,7 +109,7 @@ button.cancel {
 
 #day-selector:hover,
 #day-selector:focus {
-    border-color: #002d01;
+    border-color: #14cb17;
     box-shadow: 0 0 8px rgba(2, 14, 235, 0.3);
 }
 #modal {

@@ -29,14 +29,14 @@ const generateSlots = () => {
 
                 slots.push({
                     day: dayName,
-                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:00 - ${hour}:60`,
+                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:00 - ${hour}:20`,
                     dayIndex: day.getDay(),
                     fullDate: slotStart
                 });
 
                 slots.push({
                     day: dayName,
-                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:60 - ${hour + 1}:00`,
+                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:20 - ${hour + 1}:00`,
                     dayIndex: day.getDay(),
                     fullDate: slotEnd
                 });
