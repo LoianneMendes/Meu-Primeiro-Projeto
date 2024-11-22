@@ -8,7 +8,7 @@ const daySelector = document.getElementById('day-selector');
 
 let selectedSlotIndex = null;
 
-const daysOfWeek = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira'];
+const daysOfWeek = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira'];
 const generateSlots = () => {
     const slots = [];
     const today = new Date();
@@ -20,7 +20,7 @@ const generateSlots = () => {
         if (day.getDay() >= 1 && day.getDay() <= 5) {
             const dayName = daysOfWeek[day.getDay()];
 
-            for (let hour = 9; hour < 15; hour++) {
+            for (let hour = 11; hour < 16; hour++) {
                 const slotStart = new Date(day);
                 slotStart.setHours(hour, 0, 0, 0);
 
@@ -29,14 +29,14 @@ const generateSlots = () => {
 
                 slots.push({
                     day: dayName,
-                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:00 - ${hour}:30`,
+                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:00 - ${hour}:60`,
                     dayIndex: day.getDay(),
                     fullDate: slotStart
                 });
 
                 slots.push({
                     day: dayName,
-                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:30 - ${hour + 1}:00`,
+                    slot: `${slotStart.getDate()}/${slotStart.getMonth() + 1} - ${hour}:60 - ${hour + 1}:00`,
                     dayIndex: day.getDay(),
                     fullDate: slotEnd
                 });
@@ -69,7 +69,7 @@ const renderBookedSlots = () => {
         const li = document.createElement('li');
         li.innerHTML = `<strong>${appointment.slot}`;
         const p = document.createElement('p');
-        p.textContent = `Motivo: ${appointment.reason}`;
+        p.textContent = `Informação: ${appointment.reason}`;
         const cancelButton = document.createElement('button');
         cancelButton.textContent = 'Cancelar';
         cancelButton.classList.add('cancel');
@@ -105,7 +105,7 @@ const saveReason = () => {
         renderAvailableSlots(parseInt(daySelector.value));
         renderBookedSlots();
     } else {
-        alert('Por favor, insira um motivo para o agendamento.');
+        alert('Por favor, insira as informações do seu agendamento.');
     }
 };
 

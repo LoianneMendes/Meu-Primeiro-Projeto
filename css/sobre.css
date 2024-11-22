@@ -5,14 +5,14 @@
 }
 .container h1{
     color: #006B64;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
 }
 .container p {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 18px;
     line-height: 1.6;
-    color: black;
+    color: rgb(255, 3, 3);
     margin-bottom: 20px;
 }
 .video_naf_sobre {
@@ -35,13 +35,13 @@ video{
     width: auto;
     font-size: 18px;
     margin-left: 16px;
-    background-color: #009d92;
+    background-color: #002d01;
     padding: 20px;
     border-radius: 10px;
 }
 .conteudo_unifeso p{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
 h2{

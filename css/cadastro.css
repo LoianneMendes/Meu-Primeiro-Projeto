@@ -1,13 +1,13 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f4f4f4;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 h2{
-    font-size: 32px;
-    color: #00554f;
+    font-size: 40px;
+    color: #2cd245;
     text-align: center;
     margin: 0 auto;
 }
@@ -33,24 +33,24 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 input[type="number"] {
-    -moz-appearance: textfield;
+    appearance: textfield;
 }
 button {
     width: 100%;
     padding: 10px;
-    background-color: #006B64;
+    background-color: #2cd245;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #00554f;
+    background-color: #002d01;
 }
 a {
     display: block;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 21px;
     text-decoration: none;
-    color: #006B64;
+    color: #002d01;
 }

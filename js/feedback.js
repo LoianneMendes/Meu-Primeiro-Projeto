@@ -17,5 +17,5 @@ document.getElementById('feedbackForm').addEventListener('submit', function(e) {
     document.getElementById('name').value = '';
     document.getElementById('feedback').value = '';
 
-    alert('Feedback enviado com sucesso!');
+    alert('Avaliação/Feedback enviado com sucesso!');
 });

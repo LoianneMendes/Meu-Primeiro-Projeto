@@ -1,6 +1,6 @@
 main {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: Verdana, sans-serif;
+    margin: 25px;
     height: 100%;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -8,64 +8,64 @@ main {
 }
 
 h1 {
-    color: #006B64;
-    font-size: 48px;
+    color: #002d01;
+    font-size: 53px;
     margin: 0 auto 32px;
     width: 100%;
     text-align: center;
 }
 h2{
-    font-size: 24px;
-    color: #02524c;
-    margin-bottom: 16px;
+    font-size: 35px;
+    color: #002d01;
+    margin-bottom: 25px;
     text-align: center;
     padding: 8px;
 }
 #appointments{
-    margin-top: 24px;
-    padding: 0 0 24px;
+    margin-top: 35px;
+    padding: 0 0 35px;
 }
 .grid-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
     padding: 0;
     list-style-type: none;
     justify-content: center;
 }
 
 .grid-list li {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 23px;
     width: 180px;
     text-align: center;
-    background-color: #f9f9f9;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
-    height: 120px;
+    height: 160px;
 }
 
 .grid-list li:hover {
     transform: scale(1.05);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
 
 button {
     margin-top: 10px;
     padding: 12px;
-    background-color: #006B64;
+    background-color: #002d01;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 button.cancel {
-    background-color: red;
+    background-color: rgb(121, 0, 0);
 }
 #booked-slots.grid-list li {
     width: 200px;
@@ -75,7 +75,7 @@ button.cancel {
 
 #booked-slots.grid-list span {
     display: -webkit-box; 
-    line-clamp: 3; 
+    line-clamp: 5; 
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis; 
@@ -90,8 +90,8 @@ button.cancel {
     
 }
 .h2-selecione {
-    font-size: 24px;
-    color: #02524c;
+    font-size: 35px;
+    color: #002d01;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -99,18 +99,18 @@ button.cancel {
     width: 20%;
     padding: 12px;
     font-size: 16px;
-    border: 1px solid #02524c;
+    border: 1px solid #002d01;
     border-radius: 5px;
     background-color: #fff;
-    color: #333;
+    color: #000000;
     cursor: pointer;
     max-width: 300px;
 }
 
 #day-selector:hover,
 #day-selector:focus {
-    border-color: #006B64;
-    box-shadow: 0 0 8px rgba(0, 107, 100, 0.3);
+    border-color: #002d01;
+    box-shadow: 0 0 8px rgba(2, 14, 235, 0.3);
 }
 #modal {
     position: fixed;
@@ -141,7 +141,7 @@ textarea {
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 5px;
 }

@@ -6,7 +6,7 @@ document.getElementById("recoverForm").addEventListener("submit", function(event
 
    if (emailInput.value) {
         setTimeout(() => {
-            messageDiv.textContent = "E-mail enviado com sucesso! Verifique sua caixa de entrada para o link de recuperação.";
+            messageDiv.textContent = "E-mail enviado com sucesso! Verifique sua caixa de entrada ou SPAM para a recuperação da senha.";
             emailInput.value = "";
         }, 1000);
     } else {

@@ -18,6 +18,6 @@ document.getElementById('Agendamento').addEventListener('submit', function (e) {
             second: 'numeric',
         });
 
-        document.getElementById('resultado').textContent = `Agendamento realizado para: ${dataFormatada}`;
+        document.getElementById('resultado').textContent = `Seu agendamento foi realizado para: ${dataFormatada}`;
     }
 });

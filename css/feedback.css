@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -16,8 +16,8 @@ body {
 
 h2 {
     text-align: center;
-    color: #005B55;
-    font-size: 32px;
+    color: #002d01;
+    font-size: 43px;
     
 }
 
@@ -37,12 +37,12 @@ input[type="text"], input[type="email"], textarea {
 }
 
 textarea {
-    resize: vertical;
+    resize: horizontal;
     height: 150px;
 }
 
 .btn-submit {
-    background-color: #006B64;
+    background-color: #002d01;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -53,7 +53,7 @@ textarea {
 }
 
 .btn-submit:hover {
-    background-color: #004D48;
+    background-color: #002d01;
 }
 
 .reviews {
@@ -65,7 +65,7 @@ textarea {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
-    border-left: 4px solid #006B64;
+    border-left: 4px solid #002d01;
 }
 
 .review h3 {
@@ -78,7 +78,7 @@ textarea {
 }
 
 .error {
-    color: red;
+    color: rgb(121, 0, 0);
     font-size: 14px;
     margin-top: -10px;
 }
