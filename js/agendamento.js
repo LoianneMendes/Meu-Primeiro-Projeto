@@ -8,7 +8,7 @@ const daySelector = document.getElementById('day-selector');
 
 let selectedSlotIndex = null;
 
-const daysOfWeek = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira'];
+const daysOfWeek = ['Semana', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira'];
 const generateSlots = () => {
     const slots = [];
     const today = new Date();
