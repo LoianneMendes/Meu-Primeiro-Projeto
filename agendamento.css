@@ -1,5 +1,5 @@
 main {
-    font-family: Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 20px;
     height: 100%;
     background-color: #f9f9f9;
@@ -75,7 +75,7 @@ button.cancel {
 
 #booked-slots.grid-list span {
     display: -webkit-box; 
-    -webkit-line-clamp: 3; 
+    line-clamp: 3; 
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis; 
